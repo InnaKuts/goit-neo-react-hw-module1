@@ -1,0 +1,44 @@
+.transactionHistory {
+  width: 500px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.headRow {
+  background-color: #222;
+  color: white;
+}
+
+.headCell {
+  width: 33.33%;
+  text-transform: uppercase;
+  border: 1px solid black;
+  height: 30px;
+}
+
+.row {
+  border: 1px solid black;
+  height: 30px;
+}
+
+.even {
+  background-color: white;
+}
+
+.odd {
+  background-color: #f2f2f2;
+}
+
+.cell {
+  padding: 6px;
+  color: #222;
+  border: 1px solid black;
+}
+
+.typeCell {
+  text-transform: capitalize;
+  text-align: left;
+  padding-left: 50px;
+}
